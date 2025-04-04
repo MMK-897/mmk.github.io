@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+
+}
+.nav{
+ 
+   display: flex;
+   justify-content: flex-start;
+   gap: 50px;
+   color: white;
+   font-weight: bold;
+   margin-left: 50px;
+ 
+    
+}
+.contact{
+ margin-left: auto;
+ width: 120px;
+ text-align: center;
+ transition: background-color 1s, color 1s;
+
+ 
+}
+.contact:hover{
+    color: black;
+    background-color: aqua;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    column-gap: 0px;
+ 
+    
+
+}
+.photo{
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+  
+}
+.content{
+    font-size:30px;
+    color: aqua;
+
+    
+}
+
+.job{
+  position: relative;
+    top: -45px;
+    font-size: 70px;
+    
+
+}
+span{
+    color: white;
+}
+.context{
+    position: relative;
+    top: -100px;
+    font-size: large;
+}
+.cv-link{
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    position: relative;
+    top: -90px;
+}
